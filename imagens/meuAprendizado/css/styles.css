@@ -1,0 +1,80 @@
+/*
+*
+* @author Douglas Cortez
+*/
+
+/* Layout
+-----------------------*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/* rodapé
+------------------------*/
+.copy {
+	color: #fff;
+	text-align: center;
+}
+
+.espacamento {
+	margin-top:-20px;
+}
+
+
+
+/* Navegação lateral
+****************/
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	h1 {
+		font-size: 3em;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 3em;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	h1 {
+		
+		font-size: 3.5em;
+	}
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1 {
+
+		font-size: 3.5em;
+	}
+}
